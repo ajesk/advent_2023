@@ -1,0 +1,25 @@
+package main
+
+import (
+	"testing"
+)
+
+func TestDay[x]Part1Demo(t *testing.T) {
+	lines, _ := ReadFileLines("./data/day[x]demo.txt")
+	result := methodToCall(lines)
+	expected := 0
+
+	if expected != result {
+		t.Errorf("Expected %v, got %v", expected, result)
+	}
+}
+
+func TestDay[x]Part2Demo(t *testing.T) {
+	lines, _ := ReadFileLines("./data/day[x]demo.txt")
+	result := methodToCall(lines)
+	expected := 0
+
+	if expected != result {
+		t.Errorf("Expected %v, got %v", expected, result)
+	}
+}

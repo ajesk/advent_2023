@@ -1,0 +1,23 @@
+package main
+
+func day[x]Part1() int {
+	fileContents, err := ReadFileLines("./data/day[x].txt")
+	print(fileContents)
+
+	if err != nil {
+		return 0
+	}
+
+	return 0
+}
+
+func day[x]Part2() int {
+	fileContents, err := ReadFileLines("./data/day[x].txt")
+	print(fileContents)
+
+	if err != nil {
+		return 0
+	}
+
+	return 0
+}
